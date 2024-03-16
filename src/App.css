@@ -1,0 +1,72 @@
+.App
+{
+  height: 100vh;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  width: 100vw;
+  font-size: 2vmax;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.App h1{
+  font-size: 1.5vmax;
+}
+
+#Form
+{
+
+  position: relative;
+  left: 200px;
+  height: 80vh;
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  color: teal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1vmax;
+  box-shadow: 0 0 10px rgba(161, 161, 161, 0.5);
+}
+
+
+#Form form{
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  /* padding: 10px; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#Form input{
+  /* width: 100%; */
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+
+#Form div{
+  display: flex;
+  column-gap: 20px;
+}
+
+#Form input::placeholder
+{
+  color: black;
+}
+
+#Form button:last-of-type
+{
+  background-color: rgb(255, 0, 55);
+}
